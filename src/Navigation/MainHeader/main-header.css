@@ -1,0 +1,22 @@
+.main-header-container{
+    background: #fefefe;
+    background: no-repeat;
+    box-shadow: 0rem .5rem .5rem -.2rem #e9e9e9;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 10px; */
+}
+
+.main-header-container .main-header-user-container{
+}
+
+.main-header-container .main-header-links{
+}
+
+.spacing{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
