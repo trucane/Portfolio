@@ -1,5 +1,6 @@
 import { HomeRoute } from './RouteComponents/HomeRoute';
-import { AboutRoute } from './RouteComponents/AboutRoute'; 
+import { AboutRoute } from './RouteComponents/AboutRoute';
+import { PageNotFoundRoute } from './RouteComponents/PageNotFoundRoute';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import './assets/global/fonts.css';
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomeRoute />} />
         <Route path='/about' element={<AboutRoute />} />
+        <Route path='*' element={<PageNotFoundRoute />}/>
       </Routes>
     </div>
   );
