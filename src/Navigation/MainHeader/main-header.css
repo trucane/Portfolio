@@ -6,16 +6,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.hamburger-options{
+    display:none;
 }
 
 .main-header-container .main-header-user-container{
 }
 
-.main-header-container .main-header-links{
+.main-header-container .main-header-links-container{
 }
 
 .spacing{
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.5rem;
     font-size: 1.6rem;
 }
+
+/* styling for mobile */
+@media (max-width: 761px) {
+    .links{
+        display: none;  
+    }
+
+    .hamburger-options{
+    display:block !important;
+}
+
+
+  }
