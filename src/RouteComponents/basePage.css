@@ -1,0 +1,13 @@
+.base-page{
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+.main-content .content-container{
+    margin-top: 1rem;
+    padding: 0 2rem;
+}

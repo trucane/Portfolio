@@ -1,6 +1,7 @@
 import React, {ReactNode} from 'react';
 import { SideNav } from '../Navigation/SideNav/SideNav';
-import { MainHeaderContainer } from '../Navigation/MainHeader';
+import { MainHeaderContainer } from '../Navigation/MainHeader/MainHeader';
+import './basePage.css'
 
 
 interface Props {
@@ -15,7 +16,7 @@ export const BasePageContainer = ({children}: Props) => {
             <SideNav />
             <div className="main-content">
                 <MainHeaderContainer />
-                <div className="content">{children}</div>
+                <div className="content-container">{children}</div>
             </div>
         </div>
     )

@@ -1,0 +1,8 @@
+
+.side-nav-container{
+    /* background: #414142; */
+    background: var(--darkGray);
+    color: #ffffff;
+    padding: 1rem;
+    z-index: 1;
+}
