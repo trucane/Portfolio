@@ -1,8 +1,16 @@
 
 .side-nav-container{
-    /* background: #414142; */
     background: var(--darkGray);
     color: #ffffff;
-    padding: 1rem;
-    z-index: 1;
+    padding: 2rem;
+}
+.side-nav-container .side-nav-main-item {
+    display: flex;
+    justify-content: center;
+    width: 3rem;
+    margin-bottom: 3rem;
+}
+.side-nav-container .side-nav-main-item a {
+    color: #ffffff;
+    font-size: 2rem;
 }

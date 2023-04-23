@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import './assets/global/fonts.css';
 import './assets/global/colors.css';
+import './assets/global/break-points.css';
 
 function App() { 
   return (
