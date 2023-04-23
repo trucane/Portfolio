@@ -17,7 +17,7 @@ export const MainHeaderContainer = () => {
             <div className="main-header-user-container spacing">
                 <div className="language">language</div>
                 <div className="user-icon">home icon</div>
-                <a href="" type="btn" className="login">login /userName</a>
+                <div className="login">login /userName</div>
             </div>
         </div>
     )
