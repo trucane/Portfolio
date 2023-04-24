@@ -1,7 +1,6 @@
-import { PageNotFound } from '../Components/NotFound/PageNotFound';
-import { BasePageContainer } from './BasePage';
+import { PageNotFound } from '../Components/NotFound/PageNotFound'
+import { BasePageContainer } from './BasePage'
 
-export const  PageNotFoundRoute = () => {
-    return(
-        <BasePageContainer children={<PageNotFound />}/>)
+export const PageNotFoundRoute = () => {
+    return <BasePageContainer children={<PageNotFound />} />
 }

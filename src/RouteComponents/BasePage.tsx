@@ -1,16 +1,13 @@
-import React, {ReactNode} from 'react';
-import { SideNav } from '../Navigation/SideNav/SideNav';
-import { MainHeaderContainer } from '../Navigation/MainHeader/MainHeader';
+import React, { ReactNode } from 'react'
+import { SideNav } from '../Navigation/SideNav/SideNav'
+import { MainHeaderContainer } from '../Navigation/MainHeader/MainHeader'
 import './basePage.css'
-
 
 interface Props {
     children: ReactNode
 }
 
-
-export const BasePageContainer = ({children}: Props) => {
-
+export const BasePageContainer = ({ children }: Props) => {
     return (
         <div className="base-page">
             <SideNav />
