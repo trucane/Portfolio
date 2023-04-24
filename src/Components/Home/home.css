@@ -1,5 +1,6 @@
 .home-container{
     color: var(--white);
+    background: var(--darkGray);
     padding: 0 2rem;
     display: flex;
     justify-content: space-evenly;
@@ -24,6 +25,9 @@
     font-size: 5rem;
     line-height: 1.2;
 }
+.home-container-left-side .content .developer{
+    color: var(--appBlue)
+}
 .home-container-left-side .content .description{
     line-height: 1.5;
    margin: 3rem 0;
@@ -33,6 +37,7 @@
    color: var(--appBlue);
    font-weight: bold;
    text-decoration:underline;
+   font-size: 2rem;
 }
 
 

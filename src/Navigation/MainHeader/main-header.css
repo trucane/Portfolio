@@ -1,10 +1,13 @@
 .main-header-container {
-    box-shadow: 0rem 0.5rem 0.5rem -0.2rem #262525;
-    background: var(--darkGray);
+    /* box-shadow: 0px 15px 10px -15px #111;    */
+    background: var(--appBlue);
     padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: .9;
 }
 
 .hamburger-options {
@@ -12,7 +15,8 @@
 }
 
 .links a{
-    color: var(--appBlue);
+    color: var(--white);
+    font-weight: bold;
 }
 
 .main-header-container .main-header-user-container {
@@ -36,6 +40,7 @@
 
     .hamburger-options {
         display: block !important;
-        color: var(--appBlue);
+        color: var(--darkGray);
+        font-size: 2rem;
     }
 }
