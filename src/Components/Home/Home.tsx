@@ -9,8 +9,9 @@ const Home = () => {
             <div className="content">
                 <h1 className="title">Full Stack Software Developer</h1>
                 <p className="description">
-                    Software and web developer based out of Chicago. Developing
-                    rich web applications and seamless web experiences.
+                    Hello, my name is Henry Leverette. I am a
+                    software and web developer based out of Chicago. Developing
+                    rich web applications and seamless web experiences. Hire me. Come collab with me.
                 </p>
                 <Link to='/about'>about me</Link>
             </div>
