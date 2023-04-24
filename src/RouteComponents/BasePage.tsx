@@ -1,10 +1,10 @@
-import React, { ReactNode } from 'react'
-import { SideNav } from '../Navigation/SideNav/SideNav'
-import { MainHeaderContainer } from '../Navigation/MainHeader/MainHeader'
-import './basePage.css'
+import React, { ReactNode } from 'react';
+import { SideNav } from '../Navigation/SideNav/SideNav';
+import { MainHeaderContainer } from '../Navigation/MainHeader/MainHeader';
+import './basePage.css';
 
 interface Props {
-    children: ReactNode
+    children: ReactNode;
 }
 
 export const BasePageContainer = ({ children }: Props) => {
@@ -16,5 +16,5 @@ export const BasePageContainer = ({ children }: Props) => {
                 <div className="content-container">{children}</div>
             </div>
         </div>
-    )
-}
+    );
+};

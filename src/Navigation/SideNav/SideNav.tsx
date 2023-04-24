@@ -1,8 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
-// import { faHouse, faFileAlt, faTabletScreenButton } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom'
-import './sideNav.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import './sideNav.css';
 
 export const SideNav = () => {
     return (
@@ -20,5 +20,5 @@ export const SideNav = () => {
                 <Link to="/projects"><FontAwesomeIcon icon={faTabletScreenButton} /></Link>
             </div> */}
         </div>
-    )
-}
+    );
+};

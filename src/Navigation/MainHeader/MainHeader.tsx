@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { faBars, faHouse } from '@fortawesome/free-solid-svg-icons';
-import './main-header.css'
+import './main-header.css';
 
 export const MainHeaderContainer = () => {
     return (
@@ -24,5 +24,5 @@ export const MainHeaderContainer = () => {
                 <div className="login">login /userName</div> */}
             </div>
         </div>
-    )
-}
+    );
+};
