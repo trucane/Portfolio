@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse} from '@fortawesome/free-solid-svg-icons';
-// import { faHouse, faFileAlt, faTabletScreenButton } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faFileAlt, faTabletScreenButton } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import './sideNav.css';
 
@@ -12,10 +11,10 @@ export const SideNav = () => {
                 <Link to="/"><FontAwesomeIcon icon={faHouse} /></Link>
             </div>
             {/* <div className="side-nav-main-item">
-                <Link to="/"><FontAwesomeIcon icon={faFileAlt} /></Link>
+                <Link to="/resume"><FontAwesomeIcon icon={faFileAlt} /></Link>
             </div>
             <div className="side-nav-main-item">
-                <Link to="/"><FontAwesomeIcon icon={faTabletScreenButton} /></Link>
+                <Link to="/projects"><FontAwesomeIcon icon={faTabletScreenButton} /></Link>
             </div> */}
         </div>
     )
