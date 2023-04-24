@@ -10,7 +10,7 @@
     margin-bottom: 3rem;
 }
 .side-nav-container .side-nav-main-item a {
-    color: var(--darkGray);
+    color: var(--appBlue);
     font-size: 2rem;
 }
 
