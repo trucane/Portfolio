@@ -1,6 +1,6 @@
-import {Link} from 'react-router-dom'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faBars, faHouse } from '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faHouse } from '@fortawesome/free-solid-svg-icons';
 import './main-header.css'
 
 
@@ -11,9 +11,9 @@ export const MainHeaderContainer = () => {
     return(
         <div className="main-header-container">
             <div className="main-header-links-container spacing">
-                {/* <div className="hamburger-options">
+                <div className="hamburger-options">
                     <FontAwesomeIcon icon={faBars} />
-                </div> */}
+                </div>
                 <div className="links spacing">
                     {/* <Link to="/"><FontAwesomeIcon icon={faHouse} /></Link> */}
                     <Link to="/about">About</Link>
