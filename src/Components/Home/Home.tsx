@@ -1,7 +1,25 @@
 import React from 'react';
+import './home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
-    return <div>Home</div>;
+    return( 
+    <div className="home-container">
+        <div className="home-container-left-side set-spacing">
+            <div className="content">
+                <h1 className="title">Full Stack Software Developer</h1>
+                <p className="description">
+                    Software and web developer based out of Chicago. Developing
+                    rich web applications and seamless web experiences.
+                </p>
+                <Link to='/about'>about me</Link>
+            </div>
+        </div>
+        <div className="home-container-right-side set-spacing">
+            <img alt='laptop' src='https://fibwave.in/wp-content/uploads/2022/11/Slide-1-Laptop.gif' />
+        </div>
+    </div>
+    );
 };
 
 export default Home;

@@ -13,6 +13,7 @@ export const MainHeaderContainer = () => {
                 </div>
                 <div className="links spacing">
                     {/* <Link to="/"><FontAwesomeIcon icon={faHouse} /></Link> */}
+                    <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     {/* <Link to="/contact">Contact</Link> */}
                 </div>
