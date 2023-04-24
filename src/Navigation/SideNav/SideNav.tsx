@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faFileAlt, faTabletScreenButton } from '@fortawesome/free-solid-svg-icons';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+// import { faHouse, faFileAlt, faTabletScreenButton } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import './sideNav.css';
 
