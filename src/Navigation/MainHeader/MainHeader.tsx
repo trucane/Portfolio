@@ -1,15 +1,11 @@
-import {Link} from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 // import { faBars, faHouse } from '@fortawesome/free-solid-svg-icons';
 import './main-header.css'
 
-
-
 export const MainHeaderContainer = () => {
-
-
-    return(
+    return (
         <div className="main-header-container">
             <div className="main-header-links-container spacing">
                 <div className="hamburger-options">
