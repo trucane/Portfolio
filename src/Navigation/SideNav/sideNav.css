@@ -1,7 +1,7 @@
 .side-nav-container {
-    background: var(--darkGray);
-    color: #ffffff;
+    color: var(--white);
     padding: 2rem;
+    display: none;
 }
 .side-nav-container .side-nav-main-item {
     display: flex;
@@ -10,6 +10,12 @@
     margin-bottom: 3rem;
 }
 .side-nav-container .side-nav-main-item a {
-    color: #ffffff;
+    color: var(--darkGray);
     font-size: 2rem;
+}
+
+@media (max-width: 761px) {
+    .side-nav-container {
+        display: block;
+    }
 }

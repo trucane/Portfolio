@@ -1,4 +1,8 @@
 :root {
     --darkGray: #414142;
+    --black: #000;
+    --tomato: tomato;
+    --white: #fff;
+    --appBlue: #1e90ff;
     /* --fullwidth: 100%; */
 }
