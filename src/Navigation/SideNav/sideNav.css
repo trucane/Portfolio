@@ -1,8 +1,11 @@
 .side-nav-container {
     background: var(--white);
     height: 100vh;
+    margin-left: -14.2rem;
     padding: 0 2rem;
-    display: none;
+    transition: margin-left 2s;
+    /* transition-delay: .1s; */
+    /* display: none; */
 }
 .side-nav-container .side-nav-main-item {
     display: flex;
@@ -16,7 +19,9 @@
 }
 
 .showSideMenu{
-    display: block;
+    /* display: block; */
+    margin-left: 0rem;
+    transition: margin-left 2s;
 }
 
 @media (max-width: 761px) {
@@ -26,5 +31,10 @@
         z-index: 10;
         top:0;
         left:0;
+    }
+}
+@media (min-width: 762px) {
+    .side-nav-container {
+        display: none;
     }
 }

@@ -12,9 +12,9 @@ type MainHeaderProps = {
 export const MainHeaderContainer = ({handleToggleSideNav, toggleSideNav}: MainHeaderProps) => {
 
     return (
-        <div className={`main-header-container ${toggleSideNav ? 'sideNavOpen': 'sideNavClose'}`}>
+        <div className={`main-header-container`}>
             <div className="main-header-links-container spacing">
-                <div className="hamburger-options">
+                <div className={`hamburger-options ${toggleSideNav ? 'sideNavOpen': 'sideNavClose'}`}>
                     <FontAwesomeIcon icon={faBars} onClick={() => handleToggleSideNav()}/>
                 </div>
                 <div className="links spacing">
