@@ -5,17 +5,9 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    width: calc(100% + 7rem);
     z-index: 5;
     opacity: .9;
-}
-.sideNavOpen {
-    width: calC(100% - 7.1rem);
-    left: 7.1rem;
-}
-.sideNavClose {
-    width: 100%;
-    left: 0;
 }
 
 .hamburger-options {
@@ -45,6 +37,18 @@
 
 /* styling for mobile */
 @media (max-width: 761px) {
+
+    .main-header-container {
+        background: var(--appBlue);
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+        opacity: .9;
+    }
     .links {
         display: none;
     }
@@ -53,5 +57,17 @@
         display: block !important;
         color: var(--darkGray);
         font-size: 2rem;
+    }
+
+    .sideNavOpen {
+        margin-left: 7rem;
+        transition: margin-left 2.1s;
+        transition-delay: .3s;
+    }
+    .sideNavClose {
+        /* width: 100%; */
+        margin-left: 0rem;
+        transition: margin-left 1.1s;
+       
     }
 }
