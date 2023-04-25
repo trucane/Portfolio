@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { faBars, faHouse } from '@fortawesome/free-solid-svg-icons';
@@ -13,9 +13,9 @@ export const MainHeaderContainer = () => {
                 </div>
                 <div className="links spacing">
                     {/* <Link to="/"><FontAwesomeIcon icon={faHouse} /></Link> */}
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link>
+                    <NavLink to="/" >Home</NavLink>
+                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
                 </div>
             </div>
 
