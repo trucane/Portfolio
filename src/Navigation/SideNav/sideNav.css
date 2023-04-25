@@ -22,7 +22,7 @@
 @media (max-width: 761px) {
     .side-nav-container {
         position: fixed;
-        box-shadow: 10px 0 5px -2px #888;
+        box-shadow: .5rem 0 .5rem -2rem #888;
         z-index: 10;
         top:0;
         left:0;
