@@ -15,7 +15,7 @@ export const MainHeaderContainer = () => {
                     {/* <Link to="/"><FontAwesomeIcon icon={faHouse} /></Link> */}
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
-                    {/* <Link to="/contact">Contact</Link> */}
+                    <Link to="/contact">Contact</Link>
                 </div>
             </div>
 

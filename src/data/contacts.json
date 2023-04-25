@@ -1,0 +1,21 @@
+{
+    "data": {
+        "contacts": [
+            {
+                "title": "linkedin",
+                "link":"https://www.linkedin.com/in/henry-leverette",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"
+            },
+            {
+                "title": "github",
+                "link":"https://github.com/trucane",
+                "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            },
+            {
+                "title": "twitter",
+                "link":"https://twitter.com/programmn_Henry",
+                "logo": "https://download.logo.wine/logo/Twitter/Twitter-Logo.wine.png"
+            }
+        ]
+    }
+}
