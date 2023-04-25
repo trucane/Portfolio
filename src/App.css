@@ -1,3 +1,10 @@
 .app {
     font-family: 'Comfortaa';
 }
+
+.side-menu-open{
+    overflow: hidden;
+}
+.side-menu-close{
+    overflow:initial;
+}

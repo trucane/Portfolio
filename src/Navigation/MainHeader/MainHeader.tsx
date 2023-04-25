@@ -4,12 +4,18 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { faBars, faHouse } from '@fortawesome/free-solid-svg-icons';
 import './main-header.css';
 
-export const MainHeaderContainer = () => {
+type MainHeaderProps = {
+    handleToggleSideNav: Function,
+    toggleSideNav: boolean
+}
+
+export const MainHeaderContainer = ({handleToggleSideNav, toggleSideNav}: MainHeaderProps) => {
+
     return (
-        <div className="main-header-container">
+        <div className={`main-header-container ${toggleSideNav ? 'sideNavOpen': 'sideNavClose'}`}>
             <div className="main-header-links-container spacing">
                 <div className="hamburger-options">
-                    <FontAwesomeIcon icon={faBars} />
+                    <FontAwesomeIcon icon={faBars} onClick={() => handleToggleSideNav()}/>
                 </div>
                 <div className="links spacing">
                     {/* <Link to="/"><FontAwesomeIcon icon={faHouse} /></Link> */}

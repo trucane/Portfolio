@@ -1,6 +1,7 @@
 .side-nav-container {
-    color: var(--white);
-    padding: 2rem;
+    background: var(--white);
+    height: 100vh;
+    padding: 0 2rem;
     display: none;
 }
 .side-nav-container .side-nav-main-item {
@@ -14,9 +15,16 @@
     font-size: 2rem;
 }
 
+.showSideMenu{
+    display: block;
+}
+
 @media (max-width: 761px) {
     .side-nav-container {
-        display: block;
+        position: fixed;
         box-shadow: 10px 0 5px -2px #888;
+        z-index: 10;
+        top:0;
+        left:0;
     }
 }

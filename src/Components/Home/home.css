@@ -57,4 +57,12 @@
     .home-container-right-side{
         display: none;
     }
+
+    .home-container-left-side .content{
+        width: auto;
+    }
+
+    .home-container-left-side .content .title {
+        font-size: 4rem;
+    }
 }

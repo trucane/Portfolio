@@ -163,3 +163,9 @@
      }
     
 }
+@media (max-width: 761px) {
+    .contact-component{
+        margin: 0rem 3rem;
+    }
+    
+}

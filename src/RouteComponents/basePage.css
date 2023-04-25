@@ -1,7 +1,8 @@
 .base-page {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     position: relative;
+    align-items: stretch;
 }
 
 .main-content {
@@ -13,4 +14,19 @@
 .main-content .content-container {
     margin-top: 5.6rem;
     flex: 1;
+}
+
+.sideMenuOverlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .7;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.showOverlay{
+    display: block;
 }
