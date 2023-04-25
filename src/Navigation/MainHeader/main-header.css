@@ -9,6 +9,14 @@
     z-index: 5;
     opacity: .9;
 }
+.sideNavOpen {
+    width: calC(100% - 7.1rem);
+    left: 7.1rem;
+}
+.sideNavClose {
+    width: 100%;
+    left: 0;
+}
 
 .hamburger-options {
     display: none;
