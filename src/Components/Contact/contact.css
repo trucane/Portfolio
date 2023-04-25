@@ -16,7 +16,7 @@
 }
 
 .contact-card{
-    width: 34rem;
+    width: 30rem;
     border: 1px solid silver;
     box-shadow: 2px 2px 2px silver;
     border-radius: 1.5rem;
@@ -51,27 +51,24 @@
     font-weight: 600;
     height: 5rem;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .contact-card .link a{
     color: var(--appBlue);
     font-size: 1.6rem;
 }
 
-
 .contact-component-right-side{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    align-items: center;
-    
+    align-self: flex-start;  
 }
 .contact-component-right-side .form-container{
     border: 3px solid #F0F0F0;
     box-shadow: 2px 2px 2px #F0F0F0;
     border-radius: 1.8rem;
     padding: 1rem 2rem;
-    max-width: 55rem;
-    min-width: 50rem;
+    width: 60%;
     position: relative;
     background-color: white;
 }
@@ -80,6 +77,7 @@
    justify-content: space-between;
    align-items: center;
    margin-bottom: 2rem;
+   gap: 2rem;
 }
 .contact-component-right-side .form-container .directions{
    margin-bottom: 2rem;
@@ -99,6 +97,7 @@
 .contact-component-right-side input{
    border-radius: .8rem;
    padding: 1rem 1.5rem;
+   width: 70%;
    border:1px solid silver;
 }
 .contact-component-right-side input:focus{
@@ -142,5 +141,17 @@
         width: 100%;
         justify-content: center;
     }
+
+    .contact-component-right-side .form-container{
+        width: 80%;
+    }
+
+    .contact-card{
+        width: 70%;
+    }
+
+    .contact-component-right-side input{
+        width: 10rem;
+     }
     
 }
