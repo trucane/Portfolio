@@ -18,6 +18,9 @@
     color: var(--white);
     font-weight: bold;
 }
+.links a.active{
+    color: var(--darkGray);
+}
 
 .main-header-container .main-header-user-container {
 }
