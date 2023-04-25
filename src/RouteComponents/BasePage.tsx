@@ -24,8 +24,7 @@ export const BasePageContainer = ({ children }: Props) => {
     };
 
     return (
-        <div className="base-page"  data-id={children}>
-            .
+        <div className="base-page">
             <SideNav show={toggleSideNav}/>
             <div className="main-content">
                 <MainHeaderContainer handleToggleSideNav={handleToggleSideNav} toggleSideNav={toggleSideNav}/>
